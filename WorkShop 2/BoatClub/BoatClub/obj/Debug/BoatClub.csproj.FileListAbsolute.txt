@@ -22,3 +22,6 @@ C:\1. BoatClub\BoatClub\BoatClub\obj\Debug\BoatClub.pdb
 C:\1. BoatClub\BoatClub\BoatClub\obj\Debug\BoatClub.csprojResolveAssemblyReference.cache
 C:\1. BoatClub\BoatClub\BoatClub\bin\Debug\BoatClub.exe
 C:\1. BoatClub\BoatClub\BoatClub\bin\Debug\BoatClub.pdb
+C:\GITHUB\Objektorienterad-analys-och-design-med-UML\WorkShop 2\BoatClub\BoatClub\bin\Debug\BoatClub.exe.config
+C:\GITHUB\Objektorienterad-analys-och-design-med-UML\WorkShop 2\BoatClub\BoatClub\obj\Debug\BoatClub.exe
+C:\GITHUB\Objektorienterad-analys-och-design-med-UML\WorkShop 2\BoatClub\BoatClub\obj\Debug\BoatClub.pdb
