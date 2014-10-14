@@ -16,10 +16,11 @@ namespace BoatClub.Controller
             MemberList members = new MemberList();          
             
             var serializer = new SerializerXML();
-            var memberFunctions = new MemberFunction();
-            var boatFunctions = new BoatFunctions();
+           
             var listViews = new ListViews();
             var consoleView = new ConsoleView();
+            var memberview = new MemberView();
+            var boatview = new BoatView();
 
             members = serializer.SerializerXMLIsNullOrNot(members);            
             
@@ -33,25 +34,25 @@ namespace BoatClub.Controller
                         Environment.Exit(0);
                         break;
                     case 1:
-                        memberFunctions.CreateMember(members);                        
+                        memberview.CreateMember(members);
                         break;
-                    case 2:                        
-                        memberFunctions.GetMember(members);                                           
+                    case 2:
+                        memberview.ShowMember(members);                        
                         break;
-                    case 3:                                                
-                        memberFunctions.UpdateMember(members);
+                    case 3: 
+                        memberview.UpDateMember(members);
                         break;
                     case 4:
-                        memberFunctions.RemoveMember(members);
+                        memberview.RemoveMember(members);
                         break;
-                    case 5:                            
-                        boatFunctions.AddBoat(members);
+                    case 5:                     
+                        boatview.AddBoat(members);
                         break;
                     case 6:
-                        boatFunctions.UpdateBoat(members);
+                        boatview.UpDateBoat(members);
                         break;
                     case 7:
-                        boatFunctions.RemoveBoat(members);
+                        boatview.RemoveBoat(members);
                         break;
                     case 8:
                         listViews.CompactList(members);

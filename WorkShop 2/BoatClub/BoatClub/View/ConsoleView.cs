@@ -64,37 +64,6 @@ namespace BoatClub.View
             Console.Clear();
             return;
         }
-        public void showBoats(Member mObject)
-        {
-            var consoleView = new ConsoleView();
-            int counter = 1;
-            try
-            {
-                if (mObject.BoatList.Boats == null) { }
-                foreach (Boat bObject in mObject.BoatList.Boats)
-                {                
-                    Console.WriteLine("-------{0}--------", counter);
-                    Console.WriteLine(bObject.BoatType);
-                    Console.WriteLine("{0}m", bObject.BoatLength);
-                    counter++;
-                }
-            }
-            catch (Exception)
-            {
-                Console.WriteLine("\nDet finns ingen båt på denna medlem.");
-                consoleView.ContinueOnKeyPressed();
-                consoleView.GetMenuChoice();
-            }    
-        }
-
-        public void showBoatTypeAndLength()
-        {
-            Console.WriteLine("Lägg till en båt typ:");
-            Console.WriteLine("1 = Segelbåt");
-            Console.WriteLine("2 = Motorseglare");
-            Console.WriteLine("3 = Motorbåt");
-            Console.WriteLine("4 = Kajak/Kanot");
-            Console.WriteLine("5 = Övrigt");
-        }
+        
     }
 }

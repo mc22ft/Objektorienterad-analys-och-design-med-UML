@@ -3,23 +3,6 @@
   <Members>
     <Member>
       <BoatList>
-        <Boats>
-          <Boat>
-            <BoatType>Kajak/Kanot</BoatType>
-            <BoatLength>45</BoatLength>
-          </Boat>
-          <Boat>
-            <BoatType>2</BoatType>
-            <BoatLength>455</BoatLength>
-          </Boat>
-        </Boats>
-      </BoatList>
-      <MemberId>1</MemberId>
-      <Name>Mathias Claesson</Name>
-      <SocialNr>678905</SocialNr>
-    </Member>
-    <Member>
-      <BoatList>
         <Boats />
       </BoatList>
       <MemberId>2</MemberId>
@@ -30,39 +13,85 @@
       <BoatList>
         <Boats>
           <Boat>
-            <BoatType>3</BoatType>
+            <BoatType>Motorbåt</BoatType>
             <BoatLength>3443</BoatLength>
           </Boat>
         </Boats>
       </BoatList>
       <MemberId>3</MemberId>
-      <Name>efd34</Name>
+      <Name>Magnus</Name>
       <SocialNr>3443</SocialNr>
     </Member>
     <Member>
-      <MemberId>4</MemberId>
-      <Name>rt</Name>
-      <SocialNr>0</SocialNr>
-    </Member>
-    <Member>
       <MemberId>5</MemberId>
-      <Name>efef</Name>
+      <Name>Robin</Name>
       <SocialNr>45454</SocialNr>
-    </Member>
-    <Member>
-      <MemberId>6</MemberId>
-      <Name>Magnus</Name>
-      <SocialNr>12345</SocialNr>
-    </Member>
-    <Member>
-      <MemberId>8</MemberId>
-      <Name>Magnus Claesson</Name>
-      <SocialNr>12345678</SocialNr>
     </Member>
     <Member>
       <MemberId>8</MemberId>
       <Name>Neo Oskooei</Name>
       <SocialNr>896745</SocialNr>
+    </Member>
+    <Member>
+      <MemberId>1</MemberId>
+      <Name>Lou</Name>
+      <SocialNr>99998888</SocialNr>
+    </Member>
+    <Member>
+      <MemberId>5</MemberId>
+      <Name>mmmmm</Name>
+      <SocialNr>12</SocialNr>
+    </Member>
+    <Member>
+      <BoatList>
+        <Boats>
+          <Boat>
+            <BoatType>Kajak/Kanot</BoatType>
+            <BoatLength>34</BoatLength>
+          </Boat>
+          <Boat>
+            <BoatType>Motorbåt</BoatType>
+            <BoatLength>34</BoatLength>
+          </Boat>
+        </Boats>
+      </BoatList>
+      <MemberId>9</MemberId>
+      <Name>claesson</Name>
+      <SocialNr>454545</SocialNr>
+    </Member>
+    <Member>
+      <BoatList>
+        <Boats>
+          <Boat>
+            <BoatType>Motorbåt</BoatType>
+            <BoatLength>2323</BoatLength>
+          </Boat>
+        </Boats>
+      </BoatList>
+      <MemberId>10</MemberId>
+      <Name>Mats</Name>
+      <SocialNr>11111</SocialNr>
+    </Member>
+    <Member>
+      <BoatList>
+        <Boats>
+          <Boat>
+            <BoatType>Segelbåt</BoatType>
+            <BoatLength>1212</BoatLength>
+          </Boat>
+          <Boat>
+            <BoatType>Motorseglare</BoatType>
+            <BoatLength>12</BoatLength>
+          </Boat>
+          <Boat>
+            <BoatType>Kajak/Kanot</BoatType>
+            <BoatLength>1212</BoatLength>
+          </Boat>
+        </Boats>
+      </BoatList>
+      <MemberId>11</MemberId>
+      <Name>weeee</Name>
+      <SocialNr>2323</SocialNr>
     </Member>
   </Members>
 </MemberList>
