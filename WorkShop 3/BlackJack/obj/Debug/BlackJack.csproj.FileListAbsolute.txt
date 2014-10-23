@@ -1,0 +1,5 @@
+C:\GITHUB\Objektorienterad-analys-och-design-med-UML\WorkShop 3\BlackJack\bin\Debug\BlackJack.exe
+C:\GITHUB\Objektorienterad-analys-och-design-med-UML\WorkShop 3\BlackJack\bin\Debug\BlackJack.pdb
+C:\GITHUB\Objektorienterad-analys-och-design-med-UML\WorkShop 3\BlackJack\obj\Debug\BlackJack.csprojResolveAssemblyReference.cache
+C:\GITHUB\Objektorienterad-analys-och-design-med-UML\WorkShop 3\BlackJack\obj\Debug\BlackJack.exe
+C:\GITHUB\Objektorienterad-analys-och-design-med-UML\WorkShop 3\BlackJack\obj\Debug\BlackJack.pdb
