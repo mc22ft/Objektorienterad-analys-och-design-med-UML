@@ -58,7 +58,12 @@ namespace BlackJack.model
             //m_EqualRule.IfEqual(this);
 
 
-
+            if (m_EqualRule.IfEqual(this))
+            {
+                //true = Dealer winner
+                //false = player winner
+                return true; 
+            }
 
             if (a_player.CalcScore() > g_maxScore)
             {

@@ -9,6 +9,15 @@ namespace BlackJack.model.rules
     {
         public bool IfEqual(Player a_player)
         {
+
+
+
+
+
+
+
+            //Returnera true om det är lika över 17
+            //Returnera false om det inte är lika
             throw new NotImplementedException();
         }
     }
