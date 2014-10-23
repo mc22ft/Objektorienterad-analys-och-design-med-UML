@@ -19,7 +19,7 @@ namespace BlackJack.model.rules
 
         public IEqualStrategy GetEqualRule()
         {
-            return new IfEqualStrategy();
+            return new GameIsEqualStrategy();
         }
 
 

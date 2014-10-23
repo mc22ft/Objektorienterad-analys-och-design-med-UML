@@ -77,7 +77,7 @@
     <Compile Include="model\rules\BasicHitStrategy.cs" />
     <Compile Include="model\rules\DealerHitAceSoft17.cs" />
     <Compile Include="model\rules\IEqualStrategy.cs" />
-    <Compile Include="model\rules\IfEqualStrategy.cs" />
+    <Compile Include="model\rules\GameIsEqualStrategy.cs" />
     <Compile Include="model\rules\IHitStrategy.cs" />
     <Compile Include="model\rules\InternationalNewGameStrategy.cs" />
     <Compile Include="model\rules\INewGameStrategy.cs" />

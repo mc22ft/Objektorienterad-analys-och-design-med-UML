@@ -13,8 +13,7 @@ namespace BlackJack.model
         private rules.INewGameStrategy m_newGameRule;
         private rules.IHitStrategy m_hitRule;
         private rules.IEqualStrategy m_EqualRule;
-
-
+        
         public Dealer(rules.RulesFactory a_rulesFactory)
         {
             m_newGameRule = a_rulesFactory.GetNewGameRule();
@@ -38,10 +37,16 @@ namespace BlackJack.model
         {
             if (m_deck != null && a_player.CalcScore() < g_maxScore && !IsGameOver())
             {
-                Card c;
-                c = m_deck.GetCard();
-                c.Show(true);
-                a_player.DealCard(c);
+
+                //m_hitRule.GetNewCard(a_player, Deck m_deck);
+
+                var c = GetNewCard();
+
+                //Card c;
+                //c = m_deck.GetCard();
+                //c.Show(true);
+                //a_player.
+                DealCard(c);
 
                 return true;
             }
@@ -108,12 +113,9 @@ namespace BlackJack.model
                 while (m_hitRule.DoHit(this))
                 {
                     m_hitRule.DoHit(this);
-
-                    var c = m_deck.GetCard();
-
-                    c.Show(true);
-
-                    //Deal card (och lägger till i metoden DealCard())
+                    var c = GetNewCard();
+                    //Card c = m_deck.GetCard();
+                    //c.Show(true);                    
                     DealCard(c);
                 }
             }
@@ -123,7 +125,14 @@ namespace BlackJack.model
 
 
 
-
+        private Card GetNewCard()
+        {
+            Card c;
+            c = m_deck.GetCard();
+            c.Show(true);
+            //a_player.DealCard(c);
+            return c;
+        }
 
 
 

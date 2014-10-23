@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BlackJack.model.rules
 {
-    class IfEqualStrategy : IEqualStrategy
+    class GameIsEqualStrategy : IEqualStrategy
     {
         public bool IfEqual(Player a_player)
         {
