@@ -1,0 +1,9 @@
+WorkShop 3
+
+Krav: Visual Studio
+
+Forka mitt arbete för att köra console programet.
+
+Länk till mitt Class diagram:
+
+	https://drive.google.com/file/d/0ByhfBb1L7qlZT2N0c2h1cXZzUEU/view?usp=sharing
