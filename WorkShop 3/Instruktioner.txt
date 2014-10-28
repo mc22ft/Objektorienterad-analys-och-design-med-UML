@@ -2,8 +2,12 @@ WorkShop 3
 
 Krav: Visual Studio
 
-Forka mitt arbete för att köra console programet.
+Forka mitt arbete fÃ¶r att kÃ¶ra console programet.
 
-Länk till mitt Class diagram:
+LÃ¤nk till mitt Class diagram:
 
 	https://drive.google.com/file/d/0ByhfBb1L7qlZT2N0c2h1cXZzUEU/view?usp=sharing
+	
+Buggar!:
+Observer funktionen finns ej. Fick inte till den!
+NÃ¤r player blir "tjock" sÃ¥ blir denna ej vinnare. Har funkat men hittar inte buggen i sista sekund.
