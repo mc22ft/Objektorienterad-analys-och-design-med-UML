@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BlackJack.view
 {
-    class SwedishView : IView 
+    class SwedishView : IView
     {
         public void DisplayWelcomeMessage()
         {
@@ -26,10 +26,8 @@ namespace BlackJack.view
             }
             else
             {
-                String[] colors = new String[(int)model.Card.Color.Count]
-                    { "Hjärter", "Spader", "Ruter", "Klöver" };
-                String[] values = new String[(int)model.Card.Value.Count] 
-                    { "två", "tre", "fyra", "fem", "sex", "sju", "åtta", "nio", "tio", "knekt", "dam", "kung", "ess" };
+                String[] colors = new String[(int)model.Card.Color.Count] { "Hjärter", "Spader", "Ruter", "Klöver" };
+                String[] values = new String[(int)model.Card.Value.Count] { "två", "tre", "fyra", "fem", "sex", "sju", "åtta", "nio", "tio", "knekt", "dam", "kung", "ess" };
                 System.Console.WriteLine("{0} {1}", colors[(int)a_card.GetColor()], values[(int)a_card.GetValue()]);
             }
         }

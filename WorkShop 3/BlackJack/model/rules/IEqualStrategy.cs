@@ -7,6 +7,6 @@ namespace BlackJack.model.rules
 {
     interface IEqualStrategy
     {
-        bool IfEqual(Player a_player);
+        bool IfEqual(model.Player a_player, model.Dealer a_dealer);
     }
 }

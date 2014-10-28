@@ -7,6 +7,7 @@ namespace BlackJack.model
 {
     class Game
     {
+        //private List<IObserver> m_subscribers;
         private model.Dealer m_dealer;
         private model.Player m_player;
 
@@ -14,7 +15,14 @@ namespace BlackJack.model
         {
             m_dealer = new Dealer(new rules.RulesFactory());
             m_player = new Player();
+            //m_subscribers = new List<IObserver>();//LinkedList i demo
         }
+
+        //public void Register(IObserver a_subscribers)
+        //{
+        //   m_subscribers.Add(a_subscribers);
+        //    //m_subscribers.Add(a_subscribers);
+        //}
 
         public bool IsGameOver()
         {
@@ -23,7 +31,7 @@ namespace BlackJack.model
 
         public bool IsDealerWinner()
         {
-            return m_dealer.IsDealerWinner(m_player);
+            return m_dealer.IsDealerWinner(m_player, m_dealer);
         }
 
         public bool NewGame()
@@ -32,27 +40,19 @@ namespace BlackJack.model
         }
 
         public bool Hit()
-        {
+        {            
             return m_dealer.Hit(m_player);
         }
 
         public bool Stand()
         {
             // TODO: Implement this according to Game_Stand.sequencediagram
-
-
-
             m_dealer.Stand();
-
-
-
-
-
             return true;
         }
 
         public IEnumerable<Card> GetDealerHand()
-        {
+        {            
             return m_dealer.GetHand();
         }
 

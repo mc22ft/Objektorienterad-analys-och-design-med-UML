@@ -37,36 +37,22 @@ namespace BlackJack.model
         {
             if (m_deck != null && a_player.CalcScore() < g_maxScore && !IsGameOver())
             {
-
-                //m_hitRule.GetNewCard(a_player, Deck m_deck);
-
-                var c = GetNewCard();
-
-                //Card c;
-                //c = m_deck.GetCard();
-                //c.Show(true);
-                //a_player.
-                DealCard(c);
+                Card c = GetNewCard();
+                a_player.DealCard(c);
 
                 return true;
             }
             return false;
         }
 
-        public bool IsDealerWinner(Player a_player)
+        public bool IsDealerWinner(Player a_player, Dealer a_dealer)
         {
-
-
             //Vem vinner vid lika???
-
-
-            //m_EqualRule.IfEqual(this);
-
-
-            if (m_EqualRule.IfEqual(this))
+            
+            if (m_EqualRule.IfEqual(a_player, a_dealer))
             {
-                //true = Dealer winner
-                //false = player winner
+                //return true = Dealer is winner at equal over 17
+                //return false = player is winner at equal over 17
                 return true; 
             }
 
@@ -90,53 +76,35 @@ namespace BlackJack.model
             return false;
         }
 
-
-
-
-
         //Min implentation
-
         public bool Stand()
         {
             if (m_deck != null)
             {   
                 //Visar player hand
-                ShowHand();                
+                ShowHand();           
 
-                //Loopar igenom handen
                 foreach (var hand in GetHand())
                 {
                     hand.Show(true);
                 }
-
-                //
+                
                 while (m_hitRule.DoHit(this))
                 {
                     m_hitRule.DoHit(this);
-                    var c = GetNewCard();
-                    //Card c = m_deck.GetCard();
-                    //c.Show(true);                    
+                    Card c = GetNewCard();                                       
                     DealCard(c);
                 }
             }
             return true;
         }
-
-
-
-
+        
         private Card GetNewCard()
-        {
-            Card c;
-            c = m_deck.GetCard();
-            c.Show(true);
-            //a_player.DealCard(c);
+        {            
+            Card c = m_deck.GetCard();
+            c.Show(true);            
             return c;
         }
-
-
-
-
-
+        
     }
 }

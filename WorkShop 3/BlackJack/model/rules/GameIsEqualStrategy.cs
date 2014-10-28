@@ -7,18 +7,16 @@ namespace BlackJack.model.rules
 {
     class GameIsEqualStrategy : IEqualStrategy
     {
-        public bool IfEqual(Player a_player)
+        public bool IfEqual(Player a_player, Dealer a_dealer)
         {
-
-
-
-
-
-
-
-            //Returnera true om det är lika över 17
-            //Returnera false om det inte är lika
-            throw new NotImplementedException();
+            const int g_hitLimit = 17;
+            
+            if (a_player.CalcScore() >= g_hitLimit && a_player.CalcScore() == a_dealer.CalcScore())
+            {
+                return true;
+            }
+            
+            return false;
         }
     }
 }

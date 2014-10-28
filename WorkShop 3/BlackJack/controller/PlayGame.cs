@@ -1,13 +1,25 @@
-﻿using System;
+﻿using BlackJack.model;
+using BlackJack.view;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 
 namespace BlackJack.controller
 {
-    class PlayGame
+    class PlayGame //: IObserver 
     {
-        public bool Play(model.Game a_game, view.IView a_view)
+        private Game a_game;
+        private IView a_view;
+
+        public PlayGame(Game game, IView view)//
+        {
+            a_game = game;
+            a_view = view;
+        }
+
+        public bool Play()//model.Game a_game, view.IView a_view
         {
             a_view.DisplayWelcomeMessage();
             
@@ -41,10 +53,21 @@ namespace BlackJack.controller
                 a_game.Stand();                                             //Väljer att stanna!
             }
             return input != (char)PlayShoice.Quit;
+             
         }
+
+        //Till obsserver funktionen
+        //public void CardThrownUpDate()
+        //{
+        //    try
+        //    {
+        //        Thread.Sleep(2000);
+        //    }
+        //    catch (Exception e)
+        //    {
+        //    }
+        //}
     }
-
-
     public enum PlayShoice
     {
         PlayNewGame = 'p',
