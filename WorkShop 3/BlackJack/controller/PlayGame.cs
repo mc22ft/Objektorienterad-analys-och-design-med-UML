@@ -31,7 +31,26 @@ namespace BlackJack.controller
                 a_view.DisplayGameOver(a_game.IsDealerWinner());
             }
 
-            int input = a_view.GetInput();
+
+            //PlayShoice input = a_view.GetMenyInput();
+
+            switch (a_view.GetMenyInput())
+            {
+                case PlayShoice.PlayNewGame:
+                    a_game.NewGame();
+                    break;
+                case PlayShoice.Hit:
+                    a_game.Hit();
+                    break;
+                case PlayShoice.Stand:
+                    a_game.Stand();
+                    break;
+                case PlayShoice.Quit:
+                    return false;
+            }
+            return true;
+            //Missupfattade regeln där lite. In i view sen tillbaka
+            //int input = a_view.GetInput();
 
             //Försökte att typovandla input till enum för att sedan köra en switch/case
             
@@ -40,19 +59,19 @@ namespace BlackJack.controller
             //PlayShoice MyStatus = (PlayShoice)Enum.Parse(typeof(PlayShoice), s);
                        
             
-            if (input == (char)PlayShoice.PlayNewGame)                      //Lägg till enoum i IView ?? eller ?
-            {
-                a_game.NewGame();
-            }
-            else if (input == (char)PlayShoice.Hit)
-            {
-                a_game.Hit();
-            }
-            else if (input == (char)PlayShoice.Stand)
-            {
-                a_game.Stand();                                             //Väljer att stanna!
-            }
-            return input != (char)PlayShoice.Quit;
+            //if (input == (char)PlayShoice.PlayNewGame)                      //Lägg till enoum i IView ?? eller ?
+            //{
+            //    a_game.NewGame();
+            //}
+            //else if (input == (char)PlayShoice.Hit)
+            //{
+            //    a_game.Hit();
+            //}
+            //else if (input == (char)PlayShoice.Stand)
+            //{
+            //    a_game.Stand();                                             //Väljer att stanna!
+            //}
+            //return input != (char)PlayShoice.Quit;
              
         }
 
@@ -68,13 +87,14 @@ namespace BlackJack.controller
         //    }
         //}
     }
-    public enum PlayShoice
-    {
-        PlayNewGame = 'p',
-        Hit = 'h',
-        Stand = 's',
-        Quit = 'q'
-    };
+
+    //public enum PlayShoice
+    //{
+    //    PlayNewGame = 'p',
+    //    Hit = 'h',
+    //    Stand = 's',
+    //    Quit = 'q'
+    //};
 
 
 }

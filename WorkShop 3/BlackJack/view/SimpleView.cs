@@ -4,9 +4,33 @@ using System.Linq;
 using System.Text;
 
 namespace BlackJack.view
-{
+{    
     class SimpleView : IView
     {
+        public PlayShoice GetMenyInput()
+        {
+            while (true)
+            {
+                int input = System.Console.In.Read();
+
+                if (input == (char)PlayShoice.PlayNewGame)                      //Lägg till enoum i IView ?? eller ?
+                {
+                    return PlayShoice.PlayNewGame;
+                }
+                else if (input == (char)PlayShoice.Hit)
+                {
+                    return PlayShoice.Hit;
+                }
+                else if (input == (char)PlayShoice.Stand)
+                {
+                    return PlayShoice.Stand;                                             //Väljer att stanna!
+                }
+                else if (input == (char)PlayShoice.Quit)
+                {
+                    return PlayShoice.Quit;
+                }  
+            }            
+        } 
 
         public void DisplayWelcomeMessage()
         {
@@ -15,10 +39,10 @@ namespace BlackJack.view
             System.Console.WriteLine("Type 'p' to Play, 'h' to Hit, 's' to Stand or 'q' to Quit\n");
         }
 
-        public int GetInput()
-        {
-            return System.Console.In.Read();
-        }
+        //public int GetInput()
+        //{
+        //    return System.Console.In.Read();
+        //}
        
         public void DisplayCard(model.Card a_card)
         {

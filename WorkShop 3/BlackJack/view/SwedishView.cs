@@ -14,10 +14,54 @@ namespace BlackJack.view
             System.Console.WriteLine("----------------------");
             System.Console.WriteLine("Skriv 'p' för att Spela, 'h' för nytt kort, 's' för att stanna 'q' för att avsluta\n");
         }
-        public int GetInput()
+
+        public PlayShoice GetMenyInput()
         {
-            return System.Console.In.Read();
+            while (true)
+            {
+                int input = System.Console.In.Read();
+
+                if (input == (char)PlayShoice.PlayNewGame)                      //Lägg till enoum i IView ?? eller ?
+                {
+                    return PlayShoice.PlayNewGame;
+                }
+                else if (input == (char)PlayShoice.Hit)
+                {
+                    return PlayShoice.Hit;
+                }
+                else if (input == (char)PlayShoice.Stand)
+                {
+                    return PlayShoice.Stand;                                             //Väljer att stanna!
+                }
+                else if (input == (char)PlayShoice.Quit)
+                {
+                    return PlayShoice.Quit;
+                }                
+           }            
         }
+
+        //public int GetInput()
+        //{
+        //    return System.Console.In.Read();
+        //    public MenuChoices GetMenuChoice()
+        //{
+        //    while (true)
+        //    {
+        //        int c = Console.Read();
+        //        switch (c)
+        //        {
+        //            case PlayKey:
+        //                return MenuChoices.PlayGame;
+        //            case HitKey:
+        //                return MenuChoices.Hit;
+        //            case StandKey:
+        //                return MenuChoices.Stay;
+        //            case QuitKey:
+        //                return MenuChoices.Quit;
+        //        }
+        //    }
+        //}
+        //}
         public void DisplayCard(model.Card a_card)
         {
             if (a_card.GetColor() == model.Card.Color.Hidden)
@@ -63,4 +107,11 @@ namespace BlackJack.view
             System.Console.WriteLine("");
         }
     }
+    public enum PlayShoice
+    {
+        PlayNewGame = 'p',
+        Hit = 'h',
+        Stand = 's',
+        Quit = 'q'
+    };
 }
