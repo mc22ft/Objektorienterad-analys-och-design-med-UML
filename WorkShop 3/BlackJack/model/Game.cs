@@ -18,11 +18,11 @@ namespace BlackJack.model
             //m_subscribers = new List<IObserver>();//LinkedList i demo
         }
 
-        //public void Register(IObserver a_subscribers)
-        //{
-        //   m_subscribers.Add(a_subscribers);
-        //    //m_subscribers.Add(a_subscribers);
-        //}
+        public void Register(IObserver a_subscribers)
+        {
+            m_dealer.Register(a_subscribers);
+            //m_subscribers.Add(a_subscribers);
+        }
 
         public bool IsGameOver()
         {

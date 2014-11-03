@@ -5,8 +5,9 @@ using System.Text;
 
 namespace BlackJack.model
 {
-    public interface IObserver
+    interface ISubject
     {
-        void UpDate();
+        void Register(IObserver observer);
+        void Notify();
     }
 }

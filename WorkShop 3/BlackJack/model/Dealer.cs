@@ -5,10 +5,11 @@ using System.Text;
 
 namespace BlackJack.model
 {
-    class Dealer : Player
+    class Dealer : Player, ISubject
     {
         private Deck m_deck = null;
         private const int g_maxScore = 21;
+        private List<IObserver> m_subscribers;
 
         private rules.INewGameStrategy m_newGameRule;
         private rules.IHitStrategy m_hitRule;
@@ -19,6 +20,12 @@ namespace BlackJack.model
             m_newGameRule = a_rulesFactory.GetNewGameRule();
             m_hitRule = a_rulesFactory.GetHitRule();
             m_EqualRule = a_rulesFactory.GetEqualRule();
+            m_subscribers = new List<IObserver>();
+        }
+
+        public void Register(IObserver a_subscriber)
+        {
+            m_subscribers.Add(a_subscriber);
         }
 
         public bool NewGame(Player a_player)
@@ -28,7 +35,7 @@ namespace BlackJack.model
                 m_deck = new Deck();
                 ClearHand();
                 a_player.ClearHand();
-                return m_newGameRule.NewGame(m_deck, this, a_player);   
+                return m_newGameRule.NewGame(this, a_player); //m_deck,   
             }
             return false;
         }
@@ -41,7 +48,7 @@ namespace BlackJack.model
                 //c = GetNewCard();
                 //a_player.DealCard(c);
                 
-                GetNewCard(a_player);                
+                GetNewCard(a_player, true);                
 
                 return true;
             }
@@ -95,7 +102,7 @@ namespace BlackJack.model
                 while (m_hitRule.DoHit(this))
                 {
                    
-                    GetNewCard(this);
+                    GetNewCard(this, true);
                     
                     //m_hitRule.DoHit(this);
                     //Card c = GetNewCard();                                       
@@ -105,16 +112,26 @@ namespace BlackJack.model
             return true;
         }
         
-        private void GetNewCard(Player a_player)
+        public void GetNewCard(Player a_player, bool x)
         {
             
             Card c = m_deck.GetCard();
-            c.Show(true);
+            c.Show(x);
             a_player.DealCard(c);
             //Card c;
             //c = m_deck.GetCard();
             //c.Show(true);
             //return c;
+
+            Notify();
+            
+        }
+        public void Notify()
+        {
+            foreach (var subscriber in m_subscribers)
+            {
+                subscriber.UpDate();
+            }
         }
         
     }

@@ -8,7 +8,7 @@ using System.Threading;
 
 namespace BlackJack.controller
 {
-    class PlayGame //: IObserver 
+    class PlayGame : IObserver 
     {
         private Game a_game;
         private IView a_view;
@@ -21,10 +21,8 @@ namespace BlackJack.controller
 
         public bool Play()//model.Game a_game, view.IView a_view
         {
-            a_view.DisplayWelcomeMessage();
+            GameOn();
             
-            a_view.DisplayDealerHand(a_game.GetDealerHand(), a_game.GetDealerScore());
-            a_view.DisplayPlayerHand(a_game.GetPlayerHand(), a_game.GetPlayerScore());
 
             if (a_game.IsGameOver())
             {
@@ -75,17 +73,28 @@ namespace BlackJack.controller
              
         }
 
+        private void GameOn()
+        {
+            a_view.DisplayWelcomeMessage();
+
+            a_view.DisplayDealerHand(a_game.GetDealerHand(), a_game.GetDealerScore());
+            a_view.DisplayPlayerHand(a_game.GetPlayerHand(), a_game.GetPlayerScore());
+            
+            
+        }
+
         //Till obsserver funktionen
-        //public void CardThrownUpDate()
-        //{
-        //    try
-        //    {
-        //        Thread.Sleep(2000);
-        //    }
-        //    catch (Exception e)
-        //    {
-        //    }
-        //}
+        public void UpDate()
+        {
+            //try
+            //{
+                Thread.Sleep(2000);
+                GameOn();
+            //}
+            //catch (Exception e)
+            //{
+            //}
+        }
     }
 
     //public enum PlayShoice
