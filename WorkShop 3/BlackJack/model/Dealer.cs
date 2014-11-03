@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BlackJack.model
 {
-    class Dealer : Player
+    class Dealer : Player//, ISubject
     {
         private Deck m_deck = null;
         private const int g_maxScore = 21;
