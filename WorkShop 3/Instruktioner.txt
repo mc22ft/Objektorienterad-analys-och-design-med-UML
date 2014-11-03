@@ -4,10 +4,7 @@ Krav: Visual Studio
 
 Forka mitt arbete för att köra console programet.
 
-Länk till mitt Class diagram:
-
-	https://drive.google.com/file/d/0ByhfBb1L7qlZT2N0c2h1cXZzUEU/view?usp=sharing
-	
 Buggar!:
-Observer funktionen finns ej. Fick inte till den!
+Observer funktionen finns ej. Fick inte till den! Klart!
 När player blir "tjock" så blir denna ej vinnare. Har funkat men hittar inte buggen i sista sekund.
+Vet inte om ovan var ett krav. Så fixade det inte.
