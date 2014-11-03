@@ -6,22 +6,19 @@ using System.Text;
 namespace BlackJack.model
 {
     class Game
-    {
-        //private List<IObserver> m_subscribers;
+    {        
         private model.Dealer m_dealer;
         private model.Player m_player;
 
         public Game()
         {
             m_dealer = new Dealer(new rules.RulesFactory());
-            m_player = new Player();
-            //m_subscribers = new List<IObserver>();//LinkedList i demo
+            m_player = new Player();           
         }
 
         public void Register(IObserver a_subscribers)
         {
-            m_dealer.Register(a_subscribers);
-            //m_subscribers.Add(a_subscribers);
+            m_dealer.Register(a_subscribers);           
         }
 
         public bool IsGameOver()

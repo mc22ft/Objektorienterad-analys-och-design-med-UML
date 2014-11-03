@@ -39,29 +39,7 @@ namespace BlackJack.view
                 }                
            }            
         }
-
-        //public int GetInput()
-        //{
-        //    return System.Console.In.Read();
-        //    public MenuChoices GetMenuChoice()
-        //{
-        //    while (true)
-        //    {
-        //        int c = Console.Read();
-        //        switch (c)
-        //        {
-        //            case PlayKey:
-        //                return MenuChoices.PlayGame;
-        //            case HitKey:
-        //                return MenuChoices.Hit;
-        //            case StandKey:
-        //                return MenuChoices.Stay;
-        //            case QuitKey:
-        //                return MenuChoices.Quit;
-        //        }
-        //    }
-        //}
-        //}
+   
         public void DisplayCard(model.Card a_card)
         {
             if (a_card.GetColor() == model.Card.Color.Hidden)

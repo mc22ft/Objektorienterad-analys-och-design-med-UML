@@ -43,11 +43,7 @@ namespace BlackJack.model
         public bool Hit(Player a_player)
         {
             if (m_deck != null && a_player.CalcScore() < g_maxScore && !IsGameOver())
-            {
-                //Card c;
-                //c = GetNewCard();
-                //a_player.DealCard(c);
-                
+            {                
                 GetNewCard(a_player, true);                
 
                 return true;
@@ -57,8 +53,7 @@ namespace BlackJack.model
 
         public bool IsDealerWinner(Player a_player, Dealer a_dealer)
         {
-            //Vem vinner vid lika???
-            
+            //Vem vinner vid lika???            
             if (m_EqualRule.IfEqual(a_player, a_dealer))
             {
                 //return true = Dealer is winner at equal over 17
@@ -91,7 +86,6 @@ namespace BlackJack.model
         {
             if (m_deck != null)
             {   
-                //Visar player hand
                 ShowHand();           
 
                 foreach (var hand in GetHand())
@@ -100,13 +94,8 @@ namespace BlackJack.model
                 }
                 
                 while (m_hitRule.DoHit(this))
-                {
-                   
-                    GetNewCard(this, true);
-                    
-                    //m_hitRule.DoHit(this);
-                    //Card c = GetNewCard();                                       
-                    //DealCard(c);
+                {                   
+                    GetNewCard(this, true);                   
                 }
             }
             return true;
@@ -118,14 +107,11 @@ namespace BlackJack.model
             Card c = m_deck.GetCard();
             c.Show(x);
             a_player.DealCard(c);
-            //Card c;
-            //c = m_deck.GetCard();
-            //c.Show(true);
-            //return c;
-
-            Notify();
+            
+            Notify(); //Observer
             
         }
+        
         public void Notify()
         {
             foreach (var subscriber in m_subscribers)

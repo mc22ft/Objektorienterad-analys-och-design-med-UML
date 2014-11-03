@@ -19,17 +19,8 @@ namespace BlackJack.model.rules
 
         public IEqualStrategy GetEqualRule()
         {
-            return new GameIsEqualStrategy();
+            return new DealerWinIfEqualStratergy();
         }
-
-
-
-
-
-
-
-
-
-
+        
     }
 }

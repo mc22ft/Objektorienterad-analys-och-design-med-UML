@@ -21,17 +21,14 @@ namespace BlackJack.controller
 
         public bool Play()//model.Game a_game, view.IView a_view
         {
-            GameOn();
-            
+            GameOn();            
 
             if (a_game.IsGameOver())
             {
                 a_view.DisplayGameOver(a_game.IsDealerWinner());
             }
-
-
-            //PlayShoice input = a_view.GetMenyInput();
-
+            
+            //Meny val
             switch (a_view.GetMenyInput())
             {
                 case PlayShoice.PlayNewGame:
@@ -46,31 +43,7 @@ namespace BlackJack.controller
                 case PlayShoice.Quit:
                     return false;
             }
-            return true;
-            //Missupfattade regeln där lite. In i view sen tillbaka
-            //int input = a_view.GetInput();
-
-            //Försökte att typovandla input till enum för att sedan köra en switch/case
-            
-            //string s = ((char)input).ToString();
-            //var c = Convert.ToChar(((char)a_view.GetInput()).ToString()); //Ej med typovandlingen
-            //PlayShoice MyStatus = (PlayShoice)Enum.Parse(typeof(PlayShoice), s);
-                       
-            
-            //if (input == (char)PlayShoice.PlayNewGame)                      //Lägg till enoum i IView ?? eller ?
-            //{
-            //    a_game.NewGame();
-            //}
-            //else if (input == (char)PlayShoice.Hit)
-            //{
-            //    a_game.Hit();
-            //}
-            //else if (input == (char)PlayShoice.Stand)
-            //{
-            //    a_game.Stand();                                             //Väljer att stanna!
-            //}
-            //return input != (char)PlayShoice.Quit;
-             
+            return true;           
         }
 
         private void GameOn()
@@ -84,24 +57,14 @@ namespace BlackJack.controller
         //Till obsserver funktionen
         public void UpDate()
         {
-            //try
-            //{
+            try
+            {
                 Thread.Sleep(2000);
                 GameOn();
-            //}
-            //catch (Exception e)
-            //{
-            //}
+            }
+            catch (Exception e)
+            {
+            }
         }
-    }
-
-    //public enum PlayShoice
-    //{
-    //    PlayNewGame = 'p',
-    //    Hit = 'h',
-    //    Stand = 's',
-    //    Quit = 'q'
-    //};
-
-
+    } 
 }

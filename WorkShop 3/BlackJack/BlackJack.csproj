@@ -72,17 +72,17 @@
     <Compile Include="model\Dealer.cs" />
     <Compile Include="model\Deck.cs" />
     <Compile Include="model\Game.cs" />
-    <Compile Include="model\ISubject.cs" />
     <Compile Include="model\Player.cs" />
     <Compile Include="model\rules\AmericanNewGameStrategy.cs" />
     <Compile Include="model\rules\BasicHitStrategy.cs" />
     <Compile Include="model\rules\DealerHitAceSoft17.cs" />
+    <Compile Include="model\rules\DealerWinIfEqualStratergy.cs" />
     <Compile Include="model\rules\IEqualStrategy.cs" />
-    <Compile Include="model\rules\GameIsEqualStrategy.cs" />
     <Compile Include="model\rules\IHitStrategy.cs" />
     <Compile Include="model\rules\InternationalNewGameStrategy.cs" />
     <Compile Include="model\rules\INewGameStrategy.cs" />
     <Compile Include="model\IObserver.cs" />
+    <Compile Include="model\rules\PlayerWinIfEqualStratergy.cs" />
     <Compile Include="model\rules\RulesFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -106,9 +106,6 @@
       <ProductName>Windows Installer 3.1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
