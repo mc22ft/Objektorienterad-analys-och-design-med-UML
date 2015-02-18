@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="c45264af-074a-41d7-8b16-4b98a7034e96"
+  name="Controller"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="7fbee26c-1b15-4885-8ad4-dd6bed990c48"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DBoatClub.Controller"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="5f4a4acf-7c5b-4858-a3a3-290863bb1177">
+      <profileInstance
+        Id="c5195a95-a98e-42a5-ac28-ffc40ef4b3e2"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="45b15088-bfdb-4440-9451-c9666eb2a825"
+        name="Menu"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="57eb70e3-ad73-4152-8221-b55324e028c6"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.Controller Type%3DMenu"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="138c1033-7dce-4812-8b95-b25286ea7566"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6bbb52f4-0f97-4473-bf0b-6c0a38654a45">
+                <propertyInstance
+                  Id="1080c757-4e8c-46b3-92cf-ef9bd859f96e"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9f568b36-f064-480d-9c53-a85e46db508d">
+                <propertyInstance
+                  Id="2620fc27-e3f6-4df4-a371-52937ce7e6ce"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8b249253-930e-47a0-b6b4-fe0e1c1eacf5">
+                <propertyInstance
+                  Id="40ec6b00-6cf3-4cc7-833d-774acd5a9e05"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="09879bdc-a3f5-4e21-9f62-4cd6ff4c1be9">
+                <propertyInstance
+                  Id="4d333af8-916a-460f-a867-e04e753d753d"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1cd638cb-a324-480c-9a05-84830b53928d">
+                <propertyInstance
+                  Id="ceafdf88-02ff-4111-a693-9f22740aabcb"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="ef41b815-cfca-4be9-8bb6-ab15ddb39a3f"
+            name="run"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7043d821-2787-43f3-9ad3-b388b76d89ee"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.Controller Type%3DMenu Member%3Drun"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="bd95a318-f640-42b3-bfda-cd9a60618936"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7e662b8b-5d48-4b07-bc6e-e2b297f4d540">
+                    <propertyInstance
+                      Id="0cac8692-6371-433c-81f7-039f1500c1fc"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5dfba53d-9075-407f-977b-771da7693dc7">
+                    <propertyInstance
+                      Id="e1dc9bf4-c3e1-4228-afa4-60eb53351c79"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4abaff68-f4c9-47d3-a488-f7f75d2b2a88">
+                    <propertyInstance
+                      Id="38365db3-00a3-4306-a3f3-39740790c834"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="91a29d16-70de-40ad-aa00-37d9ef692539">
+                    <propertyInstance
+                      Id="945038d3-aae6-4d88-859c-2d9e5eb14380"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cff1d053-e1a1-486f-87a0-6eabf335660e">
+                    <propertyInstance
+                      Id="7e715bc9-4ef8-45b2-86d9-1cb60783dfe6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dfdea09f-528a-4197-a3c3-8b95466f7b50">
+                    <propertyInstance
+                      Id="01f17092-2ddb-46ab-8a29-8f320bede8de"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="38cee6d5-8d09-473b-9466-77c2405238ab"
+            name="Menu"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="35405c4a-923d-49fb-a43f-29e14f415a8c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.Controller Type%3DMenu Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e4496144-52b9-4cec-907b-71d914043e06"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="95aecd60-ddd2-4d16-b64d-9462911ea2e8">
+                    <propertyInstance
+                      Id="48625c6e-5920-485e-bf39-15b71817ce3d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ece69a33-a11b-4e53-9784-5166f3ca20e4">
+                    <propertyInstance
+                      Id="eb8413e1-780a-495e-9ec6-6c12e66899da"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a84e6af9-b809-4e7b-95b3-7ad981a90bed">
+                    <propertyInstance
+                      Id="53f9ec0a-2b68-42af-a0a4-3e8f7d087209"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f2ce70a-9b38-4872-be9d-f7974202b4f0">
+                    <propertyInstance
+                      Id="d1c177d1-c3db-4eaf-ba02-eef0013631c3"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0076c51-34bd-4c80-ba26-f5509326f849">
+                    <propertyInstance
+                      Id="ee4561ec-b65a-4b33-8f85-f4a1ee4dcc26"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="32e7bbb4-94d6-4a47-9465-c71642c552ed">
+                    <propertyInstance
+                      Id="c7b52ca9-cfec-4b10-a9c9-34a31098d4f0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

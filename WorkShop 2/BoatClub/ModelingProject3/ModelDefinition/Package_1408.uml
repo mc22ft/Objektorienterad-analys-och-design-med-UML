@@ -1,0 +1,1618 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="23851086-fd99-46a4-b752-a69f6fc400b0"
+  name="View"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="1ab500a6-c569-4aa0-8202-0301ce4c192b"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DBoatClub.View"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="05d1fbf4-2f7a-43fa-8a6f-e469ce4e6715"
+        name="MemberView"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="ec5609e0-93dc-4d38-bd2e-c3c0dfc61e9f"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.View Type%3DMemberView"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="43ef5df1-b29f-49b4-bc76-9c4c17105618"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2a7e4019-b660-4bde-80fb-599d19a1d0a7">
+                <propertyInstance
+                  Id="bbb100b9-eb18-4899-9f6b-343569f518cf"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="26f4b25c-4511-40f9-bbbf-fe282e35f16e">
+                <propertyInstance
+                  Id="ff7de9a5-1cac-46e9-a6cf-20a3b14888f2"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4dabe67c-39c8-4be1-9f14-eb246cd984e6">
+                <propertyInstance
+                  Id="45439469-0ae8-4c22-bb8e-daf5934c20db"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1137d722-c160-48e5-a5e3-e9e8acaeb1fe">
+                <propertyInstance
+                  Id="d2304009-bc16-4d83-a29b-c1dc87c4375e"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="94a7e4c5-87f4-41d4-98b6-3b5b9001c669">
+                <propertyInstance
+                  Id="7eefe955-31a7-4471-ae0d-fe3bd040415a"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="48d5a09b-daca-43c5-b99d-fad3319a27b1"
+            isSubstitutable="false">
+            <classMoniker
+              Id="f158eb56-81e6-40cc-82aa-eb5941759dd7"
+              LastKnownName="ConsoleView"
+              LastKnownLocation="Package_1408.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="547da5bc-0ed9-4735-bc99-ac8ab5cda12e"
+            name="MemberView"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a9d02e04-6ac2-4443-9d94-aca8e7bf7a0d"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.View Type%3DMemberView Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d502a66f-f023-4983-80ab-e21faed78239"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="868331fb-7046-41f8-9d2c-26d2f2dd7481">
+                    <propertyInstance
+                      Id="935bbe9f-ac69-435a-bb41-dcb1b3a6b979"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="015993cb-6a71-402c-9082-6875a6a86e7e">
+                    <propertyInstance
+                      Id="9d92a3b2-80df-4010-82e5-482653b21a3c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="94a0c7cc-6a5a-4702-a4c0-7827aeb4e8bc">
+                    <propertyInstance
+                      Id="f00c8cdf-bda0-44ff-b686-e42a04dd0eac"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="573a9652-36cb-420b-9731-448202b3b2dd">
+                    <propertyInstance
+                      Id="2a7f7f2e-12c3-4cc7-acb1-024bd72691e5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="94d910cc-2405-44ce-b0c7-febe80859c64">
+                    <propertyInstance
+                      Id="a6237b6c-de97-4b5e-ab2e-b9f219ffa007"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1740c57a-9a9a-47d9-8eb3-781c810c769a">
+                    <propertyInstance
+                      Id="cdb3eb97-71aa-454e-bd46-a2b071a40ba4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="e3c7da9c-5c7d-448b-86d4-9ec4dccda7b3"
+            name="CreateMember"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f1ffab12-cb74-4eb8-ab6f-2e80bb390db8"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.View Type%3DMemberView Member%3D(Name%3DCreateMember OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.Model Type%3DMemberList)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2dbae90a-b60b-4b4b-abf1-de2738f665ee"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7b4f45f2-dc93-4d4f-b79e-87948cd45d9d">
+                    <propertyInstance
+                      Id="7ecee679-d6e3-4acb-8b60-537e4cbf7a81"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="02d22e6e-d829-4a5f-a7a7-794192a7b608">
+                    <propertyInstance
+                      Id="ebe6554c-a98b-41eb-a4a9-a140492138b9"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f0b0b551-2d6a-4c23-84a8-ecb4a7048a97">
+                    <propertyInstance
+                      Id="eb4f454c-2da4-43ae-876a-a91fef14d39d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cb8bb5ef-fc09-4120-93c0-ab797ebdf224">
+                    <propertyInstance
+                      Id="96208b03-ed9c-4b08-b6e8-94fc99422550"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b72b1981-dd0a-4b4f-9523-8f61653cb828">
+                    <propertyInstance
+                      Id="7c775da2-473f-46a7-9e2a-741f202b89fa"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5fd64881-e8a4-4712-ad43-f5be2d13f232">
+                    <propertyInstance
+                      Id="41137bcc-a190-4d91-bd34-a6ca53609807"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e0c3e6a4-1835-49a0-a910-fb39a731bf7a"
+                  name="members"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="c74da2c6-94b8-4bd5-92c5-229e7b85b7a3"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.View Type%3DMemberView Member%3D(Name%3DCreateMember OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.Model Type%3DMemberList)]) ParameterIdentifier%3Dmembers"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="9677a69e-d02d-4940-801f-d508b2d86d48"
+                      LastKnownName="MemberList"
+                      LastKnownLocation="Package2_1405.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="c2f1b9ea-faab-475c-8101-2567891609f6"
+            name="RemoveMember"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a25e26cd-57d0-4c60-a27c-55b25471182d"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.View Type%3DMemberView Member%3D(Name%3DRemoveMember OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.Model Type%3DMemberList)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ada9c87a-1f6e-4a9a-b23f-e2385a16dca4"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="31944aeb-35f5-4a72-a7aa-633784897ef5">
+                    <propertyInstance
+                      Id="030aef1a-edf9-4863-9aa0-c5432767a484"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7bb3313f-744b-4cbf-a250-175a96e97f33">
+                    <propertyInstance
+                      Id="e5ebfb84-8a05-4cf6-8918-7fb3d2b5b622"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="56cb9967-2e3b-4067-a838-da9f600b4bcb">
+                    <propertyInstance
+                      Id="e72665f4-77bc-473e-8dce-b6da94865ed2"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11c00f86-e2a3-4b6f-aad6-c6ce216a40bf">
+                    <propertyInstance
+                      Id="e3a780b8-1f19-4c41-94df-495b17a4169d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f1c75dd3-a537-4e48-a01c-7378d33f8592">
+                    <propertyInstance
+                      Id="f5166d61-eea4-454c-80a2-92e2035bdb1a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="383bd801-86f8-4ffe-b8a7-0cbf51f5ec84">
+                    <propertyInstance
+                      Id="4fabeb3f-62ee-4b80-83fe-f53837aa769e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4596b4f0-5db5-406b-a30a-393ec620439d"
+                  name="members"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b503c550-bb95-4885-af8a-0a0f74771c96"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.View Type%3DMemberView Member%3D(Name%3DRemoveMember OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.Model Type%3DMemberList)]) ParameterIdentifier%3Dmembers"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="9677a69e-d02d-4940-801f-d508b2d86d48"
+                      LastKnownName="MemberList"
+                      LastKnownLocation="Package2_1405.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="95190242-68b6-487f-9302-929d9f6f23b8"
+            name="ShowMember"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a512a384-dfab-4023-b32e-4da1e6c9ca0c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.View Type%3DMemberView Member%3D(Name%3DShowMember OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.Model Type%3DMemberList)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="26c8f701-f97c-4734-a143-75b20ff852ba"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="58dfda1e-36d5-4a75-92b8-90e26c4e849e">
+                    <propertyInstance
+                      Id="79bc8f73-9092-461f-a106-a41c93009918"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ec4851ae-3e1e-4ba9-99a5-2280131293a5">
+                    <propertyInstance
+                      Id="083276d4-1bb1-4a05-88b9-e5722984145d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="48632bbf-f35d-40d2-8f48-bde803641526">
+                    <propertyInstance
+                      Id="5cff1dcd-2ca7-45cc-ada5-6437eaae7972"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e33fca89-7d81-4ba6-8c7a-4b227be37edf">
+                    <propertyInstance
+                      Id="faecf40e-606f-4468-abc2-56b0e9f2ef3c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6cc34500-5159-4671-bd80-dcb738e17df3">
+                    <propertyInstance
+                      Id="c665f18c-0b36-4917-8636-6d5249713cfa"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="54e3203d-925b-44cc-9fee-b9f1f3185b95">
+                    <propertyInstance
+                      Id="c91d02d9-694d-4d8c-9800-5c2c70363066"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0bb8b1a7-d6bd-4a6e-af83-cbc4093afbea"
+                  name="members"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d70c4e36-beb0-4baa-bdca-099392bb4ab3"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.View Type%3DMemberView Member%3D(Name%3DShowMember OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.Model Type%3DMemberList)]) ParameterIdentifier%3Dmembers"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="9677a69e-d02d-4940-801f-d508b2d86d48"
+                      LastKnownName="MemberList"
+                      LastKnownLocation="Package2_1405.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="90253203-5276-4d1e-857f-42edfd6eb0d1"
+            name="UpDateMember"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9aef1e97-57af-4078-a18e-bfdf427fa3e0"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.View Type%3DMemberView Member%3D(Name%3DUpDateMember OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.Model Type%3DMemberList)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="07987a0e-9d64-4695-b093-c66bee01b826"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bfd43fce-abc3-4d9b-b1b5-72cd7b2042b5">
+                    <propertyInstance
+                      Id="9d75e507-ded0-48c5-9f3f-257089c010c1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d2f7d5dc-8c83-4734-bdd2-16a29f109574">
+                    <propertyInstance
+                      Id="23889423-945a-4c1b-b127-204441b8427b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3cae72b4-8633-482d-a3cb-c8a34f63e3af">
+                    <propertyInstance
+                      Id="37b490ab-d612-449d-8e95-a8b31383cf31"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="79dcb21f-5555-4e21-82f9-3e9846e94f56">
+                    <propertyInstance
+                      Id="8138b09f-6b59-4428-842d-fbef9acadfb2"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b67dc0fb-010e-48bc-b9d4-702f4a470235">
+                    <propertyInstance
+                      Id="5bfbfff8-269c-4cf4-83db-df81c070e6ee"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="90689f92-0bc0-42d4-84f8-74617c5255ff">
+                    <propertyInstance
+                      Id="c8468ff5-44b1-4a4a-b06f-28a0a91d5a04"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="da8abd35-f2a4-461d-ac88-77ec4148cb3a"
+                  name="members"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d5a5683a-aa78-4db7-8dd2-000dbfa50189"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.View Type%3DMemberView Member%3D(Name%3DUpDateMember OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.Model Type%3DMemberList)]) ParameterIdentifier%3Dmembers"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="9677a69e-d02d-4940-801f-d508b2d86d48"
+                      LastKnownName="MemberList"
+                      LastKnownLocation="Package2_1405.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f158eb56-81e6-40cc-82aa-eb5941759dd7"
+        name="ConsoleView"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="35ba777a-9dc2-40ce-aa3f-6abbb2da7cf1"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.View Type%3DConsoleView"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="f4ae4195-b977-4e44-9feb-b7ad41443b36"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="930a78ed-1402-4a4d-8995-d1c69438b2db">
+                <propertyInstance
+                  Id="e2c6f277-cd6e-401e-9e12-dadd18c31533"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8b4c785e-a991-4f48-b2d3-76c4ec323226">
+                <propertyInstance
+                  Id="965e9d6e-1324-4b6e-bc50-ff955c636893"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fc6c0345-5a5d-4c46-8246-69d9d82ffd8a">
+                <propertyInstance
+                  Id="99c42923-bc9a-4efa-a0a0-1a6d932b6224"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="31444cc8-fc0c-4ef6-bceb-0e020cb23032">
+                <propertyInstance
+                  Id="cfc813b3-25e3-4a0e-a292-d54e53397c5a"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b020f4f1-438a-4007-a219-1ee4e60711ae">
+                <propertyInstance
+                  Id="01d07f51-53c7-414d-8433-9ab67e112edc"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="0c8fe2fe-a266-497c-b6b8-0d06151df5d4"
+            name="ConsoleView"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="32e5c306-71dc-4c7d-bcff-bccb006dfe61"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.View Type%3DConsoleView Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5ece0048-37b5-4e85-867c-734978f1efed"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b6f2a711-6beb-4239-b649-98210ff1c05c">
+                    <propertyInstance
+                      Id="a6fcae01-e459-407d-b178-4bde7615b73e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5e5cdc25-51c2-4298-ac03-ba98f95760ab">
+                    <propertyInstance
+                      Id="f12774d5-9f2d-49da-aaa1-331f0a53aefd"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="acf96c95-1e0b-4a92-8cd1-1456b9a5e23a">
+                    <propertyInstance
+                      Id="aa10d136-89b3-4c22-b949-2c0a540f5364"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8bf1727e-0726-43f0-b7c5-2e39f92ca440">
+                    <propertyInstance
+                      Id="31e638dc-a6c7-4612-95df-9b3c8f15497e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="da62c45b-07de-4f42-89f2-261f27d4332c">
+                    <propertyInstance
+                      Id="73ef0c98-cd76-4be8-91cf-a8429a72a1cc"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1512c5a6-1dc3-406e-acfe-f589eac5b398">
+                    <propertyInstance
+                      Id="70ffcb4d-aac8-456c-bc1e-4e61cb9071e9"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="11aeeb31-2d92-4b9e-8f76-204ffbc7b840"
+            name="ContinueOnKeyPressed"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="aef49547-b231-4da0-beb0-08cbecc8429c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.View Type%3DConsoleView Member%3DContinueOnKeyPressed"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4a94a9bc-0e48-4d7b-ac9d-a36372d66140"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cc91ecd2-b190-436c-bb32-f8df11aac11c">
+                    <propertyInstance
+                      Id="02698f1d-c9c9-4f71-987f-9399c26e45e4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ceb694d-93be-4e84-8ead-274071b6f0f9">
+                    <propertyInstance
+                      Id="54799711-118b-47f1-8bba-78f8c78f2632"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c4af93fa-9d7a-4e12-bfa6-174ff438d5d4">
+                    <propertyInstance
+                      Id="ea6a12e2-69e8-4e27-b8de-d1923c9f85d6"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ae86614-8465-4493-b6c0-60e0cf703c55">
+                    <propertyInstance
+                      Id="1f1ba8ef-8071-4d90-ade0-76287a0d5828"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3edfd179-33ad-485b-8d75-04aa7d2f286a">
+                    <propertyInstance
+                      Id="40cdedbe-c378-4259-bcee-a8448786305f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="228a2bd3-6e70-43ab-b5c2-126ee492181a">
+                    <propertyInstance
+                      Id="6eadef63-e984-459d-9e26-579d1d467ac0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="e4f8769a-a50f-4779-842a-578cbaf36325"
+            name="GetMenuChoice"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="136bb7ae-eb6f-4cec-ad64-5d64ab922d93"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.View Type%3DConsoleView Member%3DGetMenuChoice"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="13b23312-5a8c-4ad0-9419-c5471b96858e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="16a7ce22-df71-42bc-b710-7782847afc8c">
+                    <propertyInstance
+                      Id="89c69876-00d5-47d6-bff9-1e58dbc98422"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="41c0e9e2-9bed-432f-8493-9f325d9909fd">
+                    <propertyInstance
+                      Id="e38be408-266a-4ace-a2ce-a0d5766a2ac5"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ee6a2342-1aaf-448e-963f-e9be8ac9b206">
+                    <propertyInstance
+                      Id="bf06caa6-d69f-4ce1-bd47-62159c53e7e8"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ec833763-aa58-48e5-8d9b-3535c7f5a7b8">
+                    <propertyInstance
+                      Id="3547fe92-2624-4ce2-bee7-3a0d663362c4"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6c8f7b45-5a11-434a-a82e-9cb37aaf3d93">
+                    <propertyInstance
+                      Id="0aa31c7a-604c-4962-a402-5135f1aaa875"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9c0d4ac8-dd61-4ce5-b06f-0640c0485572">
+                    <propertyInstance
+                      Id="a523226d-9c02-45b3-9137-c8d69e384146"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="47f05422-0984-4532-8ea1-c84266767314"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject3.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="029d730e-d6e6-4b2b-b2af-74477bcf2c33"
+        name="BoatView"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="b68d3681-7c12-4a1d-94fa-6c0a6bf12d7f"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.View Type%3DBoatView"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="73212d42-9894-4b47-b323-282a5c8ac763"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="aad56aed-32ae-4553-85dd-7f8c4ebc1c7f">
+                <propertyInstance
+                  Id="1d217aa3-eacc-4609-865b-35a3f12246bc"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a8daf356-8d1b-4ac6-9157-5be7d403f7d7">
+                <propertyInstance
+                  Id="ca0d1e8b-bf79-4b09-89b5-6ea9bda93ab1"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="eed3d1a3-a12b-41fd-bf69-3fec24503322">
+                <propertyInstance
+                  Id="f74bdc1e-413e-4899-970e-623db2760bf9"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="670170d6-3f83-4f20-8d45-779924038d41">
+                <propertyInstance
+                  Id="2fae51ed-489b-4201-9126-b2cf4ae48283"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="88c47220-6989-426e-bed4-042ec669efa9">
+                <propertyInstance
+                  Id="bccd72b1-763a-46c1-987b-5ca9e573ff01"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="f1b864c4-49a7-4b92-96fc-09e1b1204773"
+            isSubstitutable="false">
+            <classMoniker
+              Id="f158eb56-81e6-40cc-82aa-eb5941759dd7"
+              LastKnownName="ConsoleView"
+              LastKnownLocation="Package_1408.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="8b9eed4c-45c9-483d-a24b-8920c1741f76"
+            name="BoatView"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5e596848-84f3-4154-a5d6-e49a2a2f3509"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.View Type%3DBoatView Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7c02d149-a3f7-4942-88a6-ccef08ba3d52"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2c92380a-1d3a-4f6f-9aa5-59c305372246">
+                    <propertyInstance
+                      Id="e13e5669-dc80-432b-912e-7bd8b0319bc5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="46b4c80a-8da4-4a2f-9a96-60c1ba5f1882">
+                    <propertyInstance
+                      Id="a80657c3-4a72-463b-bc6b-cea12b4fe334"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="26dac56f-c8e1-476b-8aea-04119796ece5">
+                    <propertyInstance
+                      Id="665ab1c5-532e-4780-bfdc-4eb9d6a573b3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cce01a8a-096c-43b8-9f0e-12b524c2206b">
+                    <propertyInstance
+                      Id="b57a17fe-c121-42d0-a81d-02eee7983c72"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8575cf09-2a20-4e72-8af7-759d38afa627">
+                    <propertyInstance
+                      Id="e742fdb7-61bf-447f-9d6a-dc34051a0330"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fae1b7d4-6527-4a11-9c18-c65bf5ce28ff">
+                    <propertyInstance
+                      Id="3f8ba9d9-7086-4a44-a81e-f0a4f33c7a50"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="ad28a8a4-023d-4f2d-a012-cbc44beac91d"
+            name="AddBoat"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="29d5f7fc-6bd6-487b-a27e-93e914b90466"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.View Type%3DBoatView Member%3D(Name%3DAddBoat OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.Model Type%3DMemberList)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c60d1de5-eef2-450b-a0e3-7e5269b8bddc"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b5d112c6-44ea-42a7-845d-99afcc755038">
+                    <propertyInstance
+                      Id="ca998ab7-5577-4571-8f0e-ebbd4da3323a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3fbb7090-a098-4e26-80af-bd9ef8eefd2e">
+                    <propertyInstance
+                      Id="fecbc6ee-a796-4cb9-8859-45995fd7ebfb"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b594c365-9c7e-447f-a082-96c2202bdeb8">
+                    <propertyInstance
+                      Id="f411a9a4-7242-4a10-83e9-69546f79c619"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ad6ff7b-3809-4ddd-913c-669134bb32a4">
+                    <propertyInstance
+                      Id="356e5e06-0e8d-40ce-9f2c-e9f3a81dda41"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1851afd3-9ab5-4599-8d37-73ef70428e33">
+                    <propertyInstance
+                      Id="f7336593-eb8a-457f-8e14-8434e506c8e7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b30c866c-7e7c-4232-9e7f-7e2df0b309be">
+                    <propertyInstance
+                      Id="51267790-dbfd-463e-b54a-77018857170e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="df3e5763-948d-4a12-9c3b-80980b8647c6"
+                  name="members"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="0704f213-961e-4b53-bb11-bd50b472d5b2"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.View Type%3DBoatView Member%3D(Name%3DAddBoat OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.Model Type%3DMemberList)]) ParameterIdentifier%3Dmembers"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="9677a69e-d02d-4940-801f-d508b2d86d48"
+                      LastKnownName="MemberList"
+                      LastKnownLocation="Package2_1405.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="0ce6059a-ccb2-480f-bfc3-e4a33feccc56"
+            name="RemoveBoat"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a51634b7-c0ad-4a51-953b-9fbde1868b94"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.View Type%3DBoatView Member%3D(Name%3DRemoveBoat OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.Model Type%3DMemberList)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="efc204d8-c8fa-4b54-b704-8dfaa16ff4e2"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c7321547-fbc8-44f8-9310-5bfe706f044c">
+                    <propertyInstance
+                      Id="b59f9514-1629-467d-a62b-fa68ff777867"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="96ae061a-1447-41e4-bc2a-6eeeb25dc0bf">
+                    <propertyInstance
+                      Id="734089cc-8bed-435a-a4f7-d7243dae9af1"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6431a5c7-f6a5-4e0a-b916-57f876dc4703">
+                    <propertyInstance
+                      Id="eb2d59d6-22ac-47eb-b33e-cea99b0178d2"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b84c44b9-ad7d-44e6-bc7b-d848718180c1">
+                    <propertyInstance
+                      Id="bbc61607-2b31-4950-a3e0-1ef9a07e5344"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb7c1de1-58a3-4117-abc4-dfe5dbd48ffe">
+                    <propertyInstance
+                      Id="a9ac2dad-76fc-4020-8a69-89f8e5743180"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="02d7707c-2117-4887-8f35-efcb8f5ed240">
+                    <propertyInstance
+                      Id="c973167f-788b-4853-bf04-eabba0810805"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="aca4565c-e864-4cf0-b34b-0948c29ef859"
+                  name="members"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="6946f6ce-0be7-4a8e-853b-a100e1025211"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.View Type%3DBoatView Member%3D(Name%3DRemoveBoat OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.Model Type%3DMemberList)]) ParameterIdentifier%3Dmembers"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="9677a69e-d02d-4940-801f-d508b2d86d48"
+                      LastKnownName="MemberList"
+                      LastKnownLocation="Package2_1405.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="5e868cb0-9bc7-456c-ae05-c66f1c854a2f"
+            name="ShowBoats"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="942e9eab-2138-4795-b21d-8841ce52666d"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.View Type%3DBoatView Member%3D(Name%3DShowBoats OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.Model Type%3DMember)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fecf7fe6-4a31-4c2a-8cce-e878203351db"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11f35366-7f54-4b01-98d2-c677d9f0fbdd">
+                    <propertyInstance
+                      Id="5d5ddd78-828e-4c2a-a62b-c081a51fc167"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="090ee753-ddbb-42c2-a88a-c4f48c298270">
+                    <propertyInstance
+                      Id="f1e1b8c1-d0f8-4580-849b-bf0a09006c2d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e8d395d7-5fc0-4923-be87-8a535818a5dc">
+                    <propertyInstance
+                      Id="45cf3ccb-52b8-4741-85b3-3d0f32d52fa9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="54e558f9-ee9c-4a9e-8e8c-16019c2cf9c4">
+                    <propertyInstance
+                      Id="8483c014-886e-45c5-8c22-497db5f7d882"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4002117c-ab85-4726-bb95-143200534bab">
+                    <propertyInstance
+                      Id="d06c026d-13d9-49c3-be05-5383c13ae86d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ecf00172-2b5c-499e-a2b7-0d28cebb66bf">
+                    <propertyInstance
+                      Id="4fc8906d-5a85-4c78-bdb6-651897439b70"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="532bf1e0-dcf0-4a05-84e4-8c3abca36f4e"
+                  name="mObject"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="6b8c5d81-7dc0-4c59-9f3f-4899c0a670da"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.View Type%3DBoatView Member%3D(Name%3DShowBoats OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.Model Type%3DMember)]) ParameterIdentifier%3DmObject"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="c2e1cc00-a048-472d-8d3d-15aae10ca8b7"
+                      LastKnownName="Member"
+                      LastKnownLocation="Package2_1405.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="326ae755-71d3-452c-b4f2-f18f2b33c189"
+            name="UpDateBoat"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="31fcb711-a1df-442c-9580-d7276216fdda"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.View Type%3DBoatView Member%3D(Name%3DUpDateBoat OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.Model Type%3DMemberList)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="262f3615-5175-4a21-8d41-4f5307e4c324"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d94b3730-416f-4d0f-8858-fcacf770cc6d">
+                    <propertyInstance
+                      Id="f094501e-c063-4a57-8dad-e0de7af56e16"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="958784bf-e2a8-4bc4-8597-8cfc61695cc6">
+                    <propertyInstance
+                      Id="6a8c4e13-54c7-4f8d-af36-ad1b0f59d73a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f087c94b-7e33-4207-9fba-cc2516ab6f88">
+                    <propertyInstance
+                      Id="47c9ea90-bcea-4a79-927f-1de4ad1222be"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5243af1d-4bcb-419e-80f9-11e5bcfd8869">
+                    <propertyInstance
+                      Id="d6de42f1-47c2-476f-ad21-f51bdc76e227"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="65cdf4d1-cf8b-419a-b4ba-cab902f3bb51">
+                    <propertyInstance
+                      Id="ae303a7a-6ef5-4220-b793-50efaef0f34e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="46a42fb2-86a6-4dbd-9317-ec40df060275">
+                    <propertyInstance
+                      Id="ce8b5c83-59c2-445f-8960-4137f4c3a64a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f4f70718-cca0-4fba-a10d-cee09ebfa90a"
+                  name="members"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="c90df59a-40b6-4148-b293-8f3f92186627"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.View Type%3DBoatView Member%3D(Name%3DUpDateBoat OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.Model Type%3DMemberList)]) ParameterIdentifier%3Dmembers"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="9677a69e-d02d-4940-801f-d508b2d86d48"
+                      LastKnownName="MemberList"
+                      LastKnownLocation="Package2_1405.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="4b1802d6-3d14-45b7-abf1-4d08aa3a4104"
+            name="ShowBoatTypeAndLength"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="82797440-c262-4baf-84d9-847c08a852de"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.View Type%3DBoatView Member%3DShowBoatTypeAndLength"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b250a89f-942c-46f1-96e5-3482ff49a0fa"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ebb87151-68d9-4174-9c28-831b2a101b6d">
+                    <propertyInstance
+                      Id="bff28754-94c7-4e45-9713-ffdc5ca0796f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fa54d1f3-a40d-45e0-b4a4-b8a5839b78d6">
+                    <propertyInstance
+                      Id="91d19381-b682-42ab-9e66-ba350494f4ef"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f22ad188-f48c-4e69-8e34-b9c8ce94435d">
+                    <propertyInstance
+                      Id="d596bd84-33ea-4aca-b5eb-a6b1e12713f9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6a11bc8e-3507-4237-9504-651988c99ebd">
+                    <propertyInstance
+                      Id="e971248d-16e8-41d9-a2cf-b6087d44fbb8"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1de47494-e4f3-4613-a365-9b423d4c395b">
+                    <propertyInstance
+                      Id="f2382e88-b650-4352-b746-790364be1bb2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b32154ac-4efe-4020-bbe1-4e2b02ad58d2">
+                    <propertyInstance
+                      Id="4922a675-2ba7-4732-a31d-51524d2c790d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="0a054702-8a78-40f3-bfea-3f3248de644f"
+        name="ListViews"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="c8ffc879-0608-4441-9c28-6a32b754b8d6"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.View Type%3DListViews"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="36a00170-b8c4-4066-9388-5bde62347e18"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9dc88261-e3a4-4658-b157-c4dcf661828d">
+                <propertyInstance
+                  Id="512e7ea1-dbd4-4718-88bf-52889bfbe3be"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="69a0671f-2d91-4449-829e-e3cc259bc853">
+                <propertyInstance
+                  Id="61d5084d-cfe1-4cfc-922f-b199b2fbfaa2"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2e56fcad-774d-4f86-9d03-69b1c1fd6ac1">
+                <propertyInstance
+                  Id="ecc4b48f-b87a-4aa1-871f-9a600072c943"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="aeeb3ef3-da63-431d-8e81-ea33337ab26c">
+                <propertyInstance
+                  Id="0ab0a55b-0430-46c4-9281-a0e47ec2dc4b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="25ce9089-63ff-4e0c-a1a6-84deae4e1676">
+                <propertyInstance
+                  Id="5e9012bd-f31a-4ee7-8ade-5c42fe63fc8d"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="c191a3c1-13a9-436c-a1df-0a7e19937e9e"
+            isSubstitutable="false">
+            <classMoniker
+              Id="f158eb56-81e6-40cc-82aa-eb5941759dd7"
+              LastKnownName="ConsoleView"
+              LastKnownLocation="Package_1408.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="91a92849-9620-4d9f-ab26-7de90f64de9b"
+            name="ListViews"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="fc68a03c-a5a7-42e2-aee8-e1b4ac1bee9e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.View Type%3DListViews Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d5b78a08-d450-43c0-b1e0-b473ceb85d9d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="470fd5a2-b36f-4d2d-9b43-e3564a58deb7">
+                    <propertyInstance
+                      Id="bd269ec6-8ebb-4444-93fe-a14a8c655cef"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fd173711-3af2-485d-8667-74642d0d4b08">
+                    <propertyInstance
+                      Id="95626208-b48b-4f2a-9f54-b25729c641f0"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5b65bf86-547f-4ea4-8fe8-7ea2b4edbcb3">
+                    <propertyInstance
+                      Id="7f760cdb-308e-4500-82ea-6d4195270c8e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="de19239b-d1e7-4398-ae00-c5ea195c16c3">
+                    <propertyInstance
+                      Id="7569b85d-7533-4953-8f8f-9d746ac3f9ac"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c69f362-7bb3-44cd-8760-79f1b16a1288">
+                    <propertyInstance
+                      Id="0caaa2d3-0ba4-4db7-91ad-d41e35e77f1e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3bdf2a99-9a55-489c-86ff-bdf29cdd9cf8">
+                    <propertyInstance
+                      Id="6dd49e7c-820a-47f7-99f6-78cd3f4fb967"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="e8d7db43-5f21-4bc3-a0bc-540270dbd82b"
+            name="CompactList"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ceebcb50-596a-47b3-a9f6-30637d6ce1ef"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.View Type%3DListViews Member%3D(Name%3DCompactList OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.Model Type%3DMemberList)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="66a824a5-c9e3-41a2-8776-6e5a7294b9d7"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="028acc40-0b9b-42bc-9e25-7bce4df299d1">
+                    <propertyInstance
+                      Id="5f7a94d9-e91f-460e-858d-0ecf3d25eefe"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fa9723ae-15b0-438d-9eb8-348f0dbd8125">
+                    <propertyInstance
+                      Id="2ae80210-dc6c-403a-83db-91f6ab2d0367"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c6f5bc64-8ee3-43e0-a02e-ccd7f2cf9a55">
+                    <propertyInstance
+                      Id="216dba75-bb5b-48a7-a6c2-a67ad26c30c5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4afd4d7e-959d-4e0f-8f59-740c910ea423">
+                    <propertyInstance
+                      Id="f25a5f16-60d8-48ef-a151-a7a0cd4e4875"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4806aadd-1fbb-40ed-95fb-24960f0f9b03">
+                    <propertyInstance
+                      Id="0fb2bf85-d376-449e-8012-6b145a0b3e3d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0a5f127c-cfda-44fe-b898-7768ed549cdf">
+                    <propertyInstance
+                      Id="e830471f-8d42-432e-bbde-4881b0f6bddd"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a71a6836-27c7-4022-afc8-14cc02fc2b3c"
+                  name="members"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="e919f74b-bde7-4771-87db-fd97414aba46"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.View Type%3DListViews Member%3D(Name%3DCompactList OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.Model Type%3DMemberList)]) ParameterIdentifier%3Dmembers"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="9677a69e-d02d-4940-801f-d508b2d86d48"
+                      LastKnownName="MemberList"
+                      LastKnownLocation="Package2_1405.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="b8088374-15e0-4c98-8d85-ca3189bb6dfc"
+            name="CompleteList"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e84b2040-c6f8-4b2d-bda6-65dad571a271"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.View Type%3DListViews Member%3D(Name%3DCompleteList OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.Model Type%3DMemberList)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8a7ec427-4b18-472a-b557-4bf1aa5c8ef1"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="96f7f468-ba2d-4690-a869-d84b9735f5ef">
+                    <propertyInstance
+                      Id="1c646475-6ba1-47e0-9ff4-e1940734fe32"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9dec259d-8670-4870-8ba8-b4c8be8a9ac0">
+                    <propertyInstance
+                      Id="6960801d-9722-4c07-8d9a-9cd8327f5dc0"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="937a3456-d8d4-4f53-b0ba-000e55c6403b">
+                    <propertyInstance
+                      Id="cab6d368-b6d1-473d-9293-601c7689cf5e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ca0ed538-5baa-4998-b04f-d3cf419263dc">
+                    <propertyInstance
+                      Id="35d85c8a-c7ca-424b-beb9-a62ae6dab193"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d157254d-69b9-4b95-be58-0186d3fa563c">
+                    <propertyInstance
+                      Id="bc1785bd-f247-4705-afa8-9bd823e0de4f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d89f9477-0bfd-4729-bb1c-dd8f730690af">
+                    <propertyInstance
+                      Id="46d6d8fe-3482-4581-b92a-a9c237efa7bb"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="aae8f109-1518-450c-a2a6-f47c8a9ed32f"
+                  name="members"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="14c4ee45-60bb-4d18-966d-b9bc1752626d"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.View Type%3DListViews Member%3D(Name%3DCompleteList OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FGITHUB%2FObjektorienterad-analys-och-design-med-UML%2FWorkShop 2%2FBoatClub%2FBoatClub%2Fbin%2FDebug%2FBoatClub.exe&quot; Namespace%3DBoatClub.Model Type%3DMemberList)]) ParameterIdentifier%3Dmembers"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="9677a69e-d02d-4940-801f-d508b2d86d48"
+                      LastKnownName="MemberList"
+                      LastKnownLocation="Package2_1405.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

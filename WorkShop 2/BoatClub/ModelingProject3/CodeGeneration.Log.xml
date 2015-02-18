@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2014-11-13T14:15:25" Importance="High" Text="Code generation or text transformation started." />
+  <Error Timestamp="2014-11-13T14:15:25" Importance="High" Text="No templates were found to process.  Configure templates by choosing 'Configure Default Code Generation Settings...' from the 'Architecture' menu, or change the selection for which code generation is launched." />
+  <Message Timestamp="2014-11-13T14:15:25" Importance="Diagnostic" Text="The selection included 12 elements which were not bound to a template." />
+  <Warning Timestamp="2014-11-13T14:15:25" Importance="Medium" Text="'ModelingProject3::BoatClub::Controller::Menu' -  (Class): no bound template." />
+  <Warning Timestamp="2014-11-13T14:15:25" Importance="Medium" Text="'ModelingProject3::BoatClub::View::MemberView' -  (Class): no bound template." />
+  <Message Timestamp="2014-11-13T14:15:25" Importance="Diagnostic" Text="'48d5a09b-daca-43c5-b99d-fad3319a27b1' -  (Generalization): no bound template." />
+  <Warning Timestamp="2014-11-13T14:15:25" Importance="Medium" Text="'ModelingProject3::BoatClub::View::BoatView' -  (Class): no bound template." />
+  <Warning Timestamp="2014-11-13T14:15:25" Importance="Medium" Text="'ModelingProject3::BoatClub::View::ListViews' -  (Class): no bound template." />
+  <Warning Timestamp="2014-11-13T14:15:25" Importance="Medium" Text="'ModelingProject3::BoatClub::Model::MemberList' -  (Class): no bound template." />
+  <Warning Timestamp="2014-11-13T14:15:25" Importance="Medium" Text="'ModelingProject3::BoatClub::View::ConsoleView' -  (Class): no bound template." />
+  <Message Timestamp="2014-11-13T14:15:25" Importance="Diagnostic" Text="'f1b864c4-49a7-4b92-96fc-09e1b1204773' -  (Generalization): no bound template." />
+  <Message Timestamp="2014-11-13T14:15:25" Importance="Diagnostic" Text="'c191a3c1-13a9-436c-a1df-0a7e19937e9e' -  (Generalization): no bound template." />
+  <Warning Timestamp="2014-11-13T14:15:25" Importance="Medium" Text="'ModelingProject3::BoatClub::Model::BoatList' -  (Class): no bound template." />
+  <Warning Timestamp="2014-11-13T14:15:25" Importance="Medium" Text="'ModelingProject3::BoatClub::Model::Member' -  (Class): no bound template." />
+  <Warning Timestamp="2014-11-13T14:15:25" Importance="Medium" Text="'ModelingProject3::BoatClub::Model::Boat' -  (Class): no bound template." />
+  <Message Timestamp="2014-11-13T14:15:25" Importance="High" Text="Code generation complete. Errors: 1. Warnings: 9." />
+</Log>

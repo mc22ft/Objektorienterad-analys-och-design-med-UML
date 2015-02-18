@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2014-11-13T14:10:54" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: '005ebe37-9b42-49ec-96c7-7cc59bdfc12e' -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Integer' -  (PrimitiveType)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub' -  (Package)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model' -  (Package)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Boat' -  (Class)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Boat::_boatLength' -  (Property)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Boat::_boatType' -  (Property)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Boat::AddBoat' -  (Operation)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Boat::AddBoat::members' -  (Parameter)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Boat::AddBoatTypeAndLength' -  (Operation)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Boat::AddBoatTypeAndLength::boatObject' -  (Parameter)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Boat::Boat' -  (Operation)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Boat::BoatLength' -  (Property)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Boat::BoatType' -  (Property)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Boat::CountBoats' -  (Operation)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Boat::CountBoats::member' -  (Parameter)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Boat::RemoveBoat' -  (Operation)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Boat::RemoveBoat::members' -  (Parameter)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Boat::UpDateBoat' -  (Operation)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Boat::UpDateBoat::currentBoat' -  (Parameter)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Boat::UpDateBoat::currentMember' -  (Parameter)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::BoatList' -  (Class)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::BoatList::_boats' -  (Property)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::BoatList::Add' -  (Operation)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::BoatList::Add::obj' -  (Parameter)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::BoatList::BoatList' -  (Operation)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::BoatList::Boats' -  (Property)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Member' -  (Class)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Member::_memberId' -  (Property)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Member::_name' -  (Property)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Member::_socialNr' -  (Property)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Member::BoatList' -  (Property)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Member::CreateMember' -  (Operation)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Member::CreateMember::members' -  (Parameter)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Member::CreateMember::Name' -  (Parameter)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Member::CreateMember::SocialNr' -  (Parameter)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Member::Member' -  (Operation)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Member::MemberId' -  (Property)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Member::Name' -  (Property)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Member::ObjectFinder1' -  (Operation)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Member::ObjectFinder1::members' -  (Parameter)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Member::RemoveMember' -  (Operation)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Member::RemoveMember::members' -  (Parameter)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Member::SetMemberId' -  (Operation)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Member::SetMemberId::members' -  (Parameter)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Member::ShowMember' -  (Operation)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Member::ShowMember::members' -  (Parameter)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Member::SocialNr' -  (Property)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Member::UpDateMember' -  (Operation)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::Member::UpDateMember::currentMember' -  (Parameter)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::MemberList' -  (Class)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::MemberList::_members' -  (Property)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::MemberList::Add' -  (Operation)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::MemberList::Add::obj' -  (Parameter)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::MemberList::MemberList' -  (Operation)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::BoatClub::Model::MemberList::Members' -  (Property)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::System' -  (Package)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::System::Collections' -  (Package)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::System::Collections::Generic' -  (Package)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::System::Collections::Generic::List' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::System::Collections::Generic::List&lt;Boat‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::System::Collections::Generic::List&lt;Member‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject3::System::Double' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject3::BoatClub::Model::MemberList to ModelingProject3::System::Collections::Generic::List&lt;Member‎&gt; (Association)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject3::BoatClub::Model::Boat to ModelingProject3::System::Double (Association)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject3::BoatClub::Model::BoatList to ModelingProject3::System::Collections::Generic::List&lt;Boat‎&gt; (Association)" />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="High" Text="(4) type(s) fully reverse engineered." />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="High" Text="(4) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2014-11-13T14:10:58" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>
